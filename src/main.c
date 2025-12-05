@@ -8,7 +8,7 @@ int main() {
     displayMenu();
     choice = getChoice();
 
-    if (choice == 1 || choice == 2) {
+    if (choice == 1 || choice == 2) {       
         hours = getHours();
         bill = calculateBill(choice, hours);
         generateReceipt(choice, hours, bill);
